@@ -16,7 +16,7 @@ blocked, so the shortest route is not always the cheapest.
 | **Percepts** | taxi position, passenger location, destination, valid neighbouring roads |
 | **Actions** | move N/S/E/W, pick up, drop off |
 | **Performance measure** | +5 pickup, +20 drop-off, −1 per move, −20 if the trip fails |
-| **Search** | BFS and DFS (uninformed), Greedy Best-First and A\* (Manhattan-distance heuristic); A\* and Greedy use traffic-weighted costs |
+| **Search** | BFS and DFS (uninformed); Greedy Best-First (Manhattan-distance heuristic only); A\* (traffic-weighted path cost: normal 1, mild 3, heavy 6, plus the Manhattan heuristic) |
 | **Evaluation** | 5 scenarios × 4 algorithms: success, steps, score, nodes explored, path cost, path length |
 
 ## Results (from the notebook)
