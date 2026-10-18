@@ -50,3 +50,6 @@ jupyter notebook london_taxi_search_agent.ipynb   # then Kernel → Restart & Ru
 - **Run All failed in the submitted notebook:** the "test grid" plot cell ran before `plot_environment()` was defined (the notebook had been run out of order). The cell was moved below the function, and the notebook now runs top to bottom with identical results.
 - Removed a trailing empty cell; re-executed so execution counts are sequential.
 - The home landmark label was changed to an area name for privacy.
+
+---
+*Shared as a portfolio piece after marking. Please do not reuse this work in your own assessed coursework.*
